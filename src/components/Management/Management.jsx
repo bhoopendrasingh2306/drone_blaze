@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FadeUp } from "../Hero/Hero";
-import iot from '../../assets/loT.png';
 import drone_bg from '../../assets/drone_b.jpg'
 function Management() {
   return (

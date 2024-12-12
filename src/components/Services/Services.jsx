@@ -1,11 +1,4 @@
 import React from "react";
-// import { TbTruckDelivery } from "react-icons/tb";
-
-// import { RiComputerLine } from "react-icons/ri";
-// import { CiMobile3 } from "react-icons/ci";
-// import { IoMdHappy } from "react-icons/io";
-// import { BiSupport } from "react-icons/bi";
-// import { IoPulseOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 
 const ServicesData = [

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaBell } from "react-icons/fa";
 import BgImage from "../../assets/bg.png";
 import { motion } from "framer-motion";
 
@@ -27,18 +26,11 @@ const Subscribe = () => {
         >
           <div className="text-center space-y-4 lg:max-w-[430px] mx-auto">
             <h1 className="text-4xl font-bold !leading-snug">
-            Centralized Data
+              Centralized Data
             </h1>
             <p>
-            Utilizing centralized data systems ensures that information is consolidated in one accessible location. This centralization streamlines data management and retrieval, enhances collaboration, and supports more efficient decision-making, all while reducing the complexity and overhead associated with managing disparate data sources.
+              Utilizing centralized data systems ensures that information is consolidated in one accessible location. This centralization streamlines data management and retrieval, enhances collaboration, and supports more efficient decision-making, all while reducing the complexity and overhead associated with managing disparate data sources.
             </p>
-            {/* <a
-              href=""
-              className="primary-btn !mt-8 inline-flex items-center gap-4 group"
-            >
-              Centralized Data
-              <FaBell className="group-hover:animate-bounce group-hover:text-lg duration-200" />
-            </a> */}
           </div>
         </motion.div>
       </motion.div>

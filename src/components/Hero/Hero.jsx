@@ -2,9 +2,8 @@ import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Blob from "../../assets/blob.svg";
 import HeroPng from "../../assets/drone_hero.png";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import { Navigate } from "react-router-dom";
 
 export const FadeUp = (delay) => {
   return {
@@ -39,15 +38,15 @@ const Hero = () => {
               animate="animate"
               className="text-lg lg:text-4xl font-medium !leading-snug"
             >
-              <span style={{color:'rgba(153, 27, 27, 1)'}}>
+              <span style={{ color: 'rgba(153, 27, 27, 1)' }}>
                 <Typewriter
                   words={['Precision, efficiency, and innovation in every flight.',
-                  'From the sky to the ground, we have got you covered.',
-                  'Empowering the next generation of aerial innovators.',
-                  'See the world from a new perspective.',
-                  'Intelligence in the sky, innovation at your fingertips.',
-                  'Revolutionizing the way we explore our world.',
-                  'Your adventure starts in the skies.']}
+                    'From the sky to the ground, we have got you covered.',
+                    'Empowering the next generation of aerial innovators.',
+                    'See the world from a new perspective.',
+                    'Intelligence in the sky, innovation at your fingertips.',
+                    'Revolutionizing the way we explore our world.',
+                    'Your adventure starts in the skies.']}
                   loop={true}
                   cursor
                   cursorStyle='|'
@@ -63,15 +62,15 @@ const Hero = () => {
               animate="animate"
               className="flex justify-center md:justify-start"
             >
-            <a
-              // href="https://da-pearl.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="primary-btn bg-black/90 shadow-none flex items-center gap-2 group"
-            >
-              Get Started
-              <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
-            </a>
+              <a
+                // href="https://da-pearl.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primary-btn bg-black/90 shadow-none flex items-center gap-2 group"
+              >
+                Get Started
+                <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
+              </a>
 
             </motion.div>
           </div>

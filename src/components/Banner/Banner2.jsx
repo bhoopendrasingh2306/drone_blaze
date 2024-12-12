@@ -14,10 +14,10 @@ const Banner2 = () => {
         >
           <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">
             <h1 className="text-4xl font-bold !leading-snug">
-            Medical Assistance
+              Medical Assistance
             </h1>
             <p className="text-dark2">
-            Medical drones are revolutionizing healthcare by providing rapid and reliable delivery of essential medical supplies to remote, disaster-hit, or underserved areas. These drones can transport life-saving items such as blood, vaccines, medications, and medical equipment in a fraction of the time required by traditional transportation methods. Equipped with advanced GPS systems and autonomous navigation, medical drones ensure precise delivery even in challenging terrains or during emergencies. They play a crucial role in disaster response by delivering aid to inaccessible regions and enabling first responders to focus on critical care. With features like temperature-controlled compartments, they preserve the integrity of sensitive medical supplies. By bridging logistical gaps in healthcare systems, medical drones enhance efficiency, save lives, and ensure equitable access to vital medical resources.
+              Medical drones are revolutionizing healthcare by providing rapid and reliable delivery of essential medical supplies to remote, disaster-hit, or underserved areas. These drones can transport life-saving items such as blood, vaccines, medications, and medical equipment in a fraction of the time required by traditional transportation methods. Equipped with advanced GPS systems and autonomous navigation, medical drones ensure precise delivery even in challenging terrains or during emergencies. They play a crucial role in disaster response by delivering aid to inaccessible regions and enabling first responders to focus on critical care. With features like temperature-controlled compartments, they preserve the integrity of sensitive medical supplies. By bridging logistical gaps in healthcare systems, medical drones enhance efficiency, save lives, and ensure equitable access to vital medical resources.
             </p>
             <a
               href=""
